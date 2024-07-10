@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Telescopio",
+      "precio": "$5,000.00",
+      "imagen": "https://skyshop.mx/wp-content/uploads/2023/10/Q114-professional-SKY-nl1.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Binoculares",
+      "precio": "$2,500.00",
+      "imagen": "https://m.media-amazon.com/images/I/61ogDg9nysL.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Guitarra",
+      "precio": "$6,000.00",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2S6bZb1Syo26QsiR_FwQ4WvSs7N_vMlo_Hw&s"
+    },
+    {
+      "id": "4",
+      "nombre": "Libro Meditaciones",
+      "precio": "$200.00",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_771008-MLM47011529023_082021-O.webp"
+    },
+    {
+      "id": "5",
+      "nombre": "Globo terráqueo",
+      "precio": "$1,500.00",
+      "imagen": "https://ss365.liverpool.com.mx/xl/1094578180.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Porta retrato",
+      "precio": "$150",
+      "imagen": "https://m.media-amazon.com/images/I/71pfjUWDjOL.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Espejo",
+      "precio": "$400.00",
+      "imagen": "https://m.media-amazon.com/images/I/71VNZjzE1TL.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Par de aretes",
+      "precio": "$300.00",
+      "imagen": "https://maestrosjoyeros.com/cdn/shop/products/HU00B05A02_1.jpg?v=1676067834"
+    },
+    {
+      "id": "9",
+      "nombre": "Libro Cien años de soledad",
+      "precio": "$400.00",
+      "imagen": "https://resources.sanborns.com.mx/imagenes-sanborns-ii/1200/9786070728792.jpg?scale=500&qlty=75"
+    }
+  ]
+}

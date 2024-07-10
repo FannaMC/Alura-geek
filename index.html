@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="./styles/reset.css"/>
+    <link rel="stylesheet" href="./styles/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>AluraGeek</h1>
+    </header>
+
+    <section class="contenido_todo">
+        
+        <section class="mis_productos">
+            <div class="productos">
+                <h1 class="titulo">MIS PRODUCTOS</h1>
+                <div class="cards" data-cards>        
+                </div>
+            </div>
+        </section>
+    
+        <section class="agregar_producto">
+            <h1 class="titulo_agregar">AGREGAR PRODUCTO:</h1>
+            <form class="formulario" data-formulario>
+                <input name="nombre" id="nombre" class="datos_producto" data-nombre required>
+                <input name="precio" id="precio" class="datos_producto" data-precio required>
+                <input name="imagen" id="imagen" class="datos_producto" data-imagen required>
+                <div class="botones">
+                    <button class="boton_enviar" type="submit">Enviar</button>
+                    <button class="boton_borrar" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </section>
+    
+    <footer class="footer">
+        <h2 class="final">AluraGeek</h2>
+        <p class="final">Desarrollado por Estefania Muñoz</p>
+        <p class="final">Alura Latam - 2024</p>
+    </footer>
+
+    <script src="./js/conexion.js" type="module"></script>
+    <script src="./js/crearPro.js" type="module"></script>
+    <script src="./js/mostrarPro.js" type="module"></script>
+
+</body>
+</html>

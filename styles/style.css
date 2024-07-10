@@ -1,0 +1,212 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #05203e;
+    font-size: 3.5em;
+    color: #ffb6ff;
+    padding: 15px;
+}
+
+.contenido_todo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.productos {
+    text-align: center;
+}
+
+.titulo {
+    padding: 3% 0% 3% 5%;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #05203e;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0% 2% 3% 5%;
+}
+
+.card {
+    width: 240px;
+    margin: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 1px 1px 2px black;
+    background-color: #b587f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.card .juguete {
+    width: 200px;
+}
+
+.card .nombre {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #05203e;
+}
+
+.card .informacion {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #2c3c6e;
+    font-weight: bold;
+}
+
+.agregar_producto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 4%;
+    align-items: center;
+}
+
+.agregar_producto .titulo_agregar {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #05203e;
+}
+
+.agregar_producto .formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.formulario .datos_producto {
+    width: 400px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 5px solid #ffb6ff;
+}
+
+.formulario .botones {
+    display: flex;
+    flex-direction: row;
+}
+
+.formulario .boton_enviar {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    background: #2c3c6e;
+    color: #b587f1;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.formulario .boton_borrar {
+    width: 150px;
+    margin: 10px;
+    padding: 5px;
+    background: #2c3c6e;
+    color: #b587f1;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.footer {
+    background: #05203e;
+    color: #ffb6ff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .8em;
+}
+
+.footer .final {
+    padding: 5px;
+}
+
+@media (max-width:768px) {
+    
+    body, html {
+        margin: 0;
+        padding: 0;
+    }
+
+    .contenido_todo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .encabezado {
+        font-size: 2em;
+    }
+
+    .titulo {
+        padding: 5 0 5 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .card {
+        width: 180px;
+        border-radius: 5px;
+    }
+
+    .card .juguete {
+        width: 150px;
+    }
+ 
+    .agregar_producto {
+        padding: 2 0 2 0;
+    }
+}
+
+@media (max-width:424px) {
+
+    .card {
+        width: 260px;
+    }
+
+    .card .juguete {
+        width: 230px;
+    }
+
+    .agregar_producto {
+        padding: 5 0 5 0;
+    }
+
+    .formulario .datos_producto {
+        width: 300px;
+    }
+
+}
+
+.color1 {color: #05203e;}
+.color2 {color: #2c3c6e;}
+.color3 {color: #655faa;}
+.color4 {color: #b587f1;}
+.color5 {color: #ffb6ff;}
